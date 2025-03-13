@@ -1,6 +1,8 @@
+<!--
 <p align="right">
   <img src="https://komarev.com/ghpvc/?username=viadsss&label=views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
+-->
 
 <h1 align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&center=true&duration=3000&pause=1000&width=435&lines=Hey+There!+%F0%9F%91%8B;I'm+John+Paul+Viado" alt="Typing SVG" /></a>
