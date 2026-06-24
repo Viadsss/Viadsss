@@ -1,0 +1,166 @@
+{
+    // Code Formatter
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+    },
+    "php.format.codeStyle": "Laravel",
+
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+
+    // Prettier Settings
+    "prettier.tabWidth": 4,
+
+    // Tailwind Settings
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "tailwindCSS.emmetCompletions": true,
+
+    // Editor Settings
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontLigatures": true,
+    "editor.fontVariations": false,
+    "editor.fontFamily": "Geist Mono Semibold, Roboto Mono, Fira Code, Jetbrains Mono, Consolas",
+    "editor.tabSize": 4,
+    "editor.indentSize": "tabSize",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "bottom",
+    "workbench.editor.showTabs": "multiple",
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "workbench.statusBar.visible": false,
+
+    // Terminal Settings
+    "terminal.integrated.fontFamily": "GeistMono Nerd Font",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.enableMultiLinePasteWarning": "auto",
+    "terminal.integrated.env.windows": {},
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Windows PowerShell": {
+            "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+
+    // SCM Settings
+    "scm.inputFontFamily": "Geist Mono, default",
+
+    // Error Lens Settings
+    "errorLens.enabled": true,
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.gutterIconSet": "defaultOutline",
+    "errorLens.statusBarIconsEnabled": true,
+    "errorLens.messageEnabled": true,
+
+    // File Explorer Settings
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+
+    // File Save and AutoSave Settings
+    "files.autoSave": "afterDelay",
+
+    // Custom UI
+    "custom-ui-style.font.monospace": "Geist Mono Semibold",
+    "custom-ui-style.font.sansSerif": "Geist Mono Semibold",
+
+    // Custom CSS and JS Loader
+    "vscode_custom_css.imports": [
+        "file:C:/Users/John Paul/vs-config/custom-vscode.css"
+        // "file:C:/Users/John Paul/vs-config/vscode-script.js"
+    ],
+
+    // GitHub Copilot Settings (AI Assistant)
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": true
+    },
+
+    // Python Settings
+    "python.defaultInterpreterPath": "C:\\Users\\John Paul\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "php.inlayHints.parameters.enabled": true,
+
+    // Code Runner
+    "code-runner.runInTerminal": true,
+
+    // Live Server
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    // CodeSnap Settings (For Screenshots)
+    "codesnap.showWindowTitle": true,
+    "codesnap.containerPadding": "1.5em",
+
+    // Miscellaneous Settings (File Paths, Auto Updates)
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "breadcrumbs.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "git.autofetch": true,
+    "php.validate.executablePath": "C:/Users/John%20Paul/.config/herd/bin/php84/php.exe",
+    "css.autoValidation": "Save",
+    "css.styleSheets": ["**/*.css"],
+    "vue.inlayHints.missingProps": true,
+    "vue.server.hybridMode": false,
+    "color-highlight.markerType": "dot-after",
+    "githubPullRequests.createOnPublishBranch": "never",
+    "githubPullRequests.pullBranch": "never",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "supermaven.otherWarning": false,
+    "java.configuration.detectJdksAtStart": false,
+    "chat.mcp.gallery.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ]
+}
